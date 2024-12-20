@@ -1,0 +1,30 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>디테일</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>학번</th>
+            <td>${member.id}</td>
+        </tr>
+        <tr>
+            <th>이름</th>
+            <td>${member.memberName}</td>
+        </tr>
+        <tr>
+            <th>국어</th>
+            <td>${member.memberKor}</td>
+        </tr>
+        <tr>
+            <th>영어</th>
+            <td>${member.memberEngnum}</td>
+        </tr>
+        <tr>
+            <th>수학</th>
+            <td>${member.memberMatnum}</td>
+        </tr>
+    </table>
+</body>
+</html>
